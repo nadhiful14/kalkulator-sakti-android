@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ededed">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.nadhiful46gmail.kalkulatorsakti.pop_up1Activity">
+
+        <TextView
+            android:id="@+id/alert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffc8c8"
+            android:paddingBottom="6dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="6dp"
+            android:text="Laporkan bug setiap kali anda menemukan masalah agar dapat membantu kami untuk memperbaikinya lebih cepat."
+            android:textColor="#ff1515"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/alert"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Subjek"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/subjek"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/label"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:backgroundTint="#ffffff"
+            android:elevation="4dp"
+            android:hint="Masukkan Subjek"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/subjek"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="Deskripsi"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/label2"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:backgroundTint="#ffffff"
+            android:elevation="4dp"
+            android:hint="Masukkan Deskripsi"
+            android:paddingBottom="60dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="8dp"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/deskripsi"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            android:text="Email/Nomor Telepon"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <EditText
+            android:id="@+id/telpon"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_below="@id/label3"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+            android:backgroundTint="#ffffff"
+            android:elevation="4dp"
+            android:hint="Masukkan Email/Nomor Telepon"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="15dp" />
+
+        <Button
+            android:id="@+id/kirim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/telpon"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="5dp"
+            android:elevation="4dp"
+            android:text="Kirim"
+            android:onClick="kirim"/>
+
+    </RelativeLayout>
+
+</ScrollView>

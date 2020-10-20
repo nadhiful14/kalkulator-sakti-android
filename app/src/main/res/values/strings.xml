@@ -1,0 +1,185 @@
+<resources>
+    <string name="app_name">Kalkulator Sakti</string>
+    <string-array name="array_dicari">
+        <item> Keliling </item>
+        <item> Luas </item>
+        <item> Panjang </item>
+        <item> Lebar </item>
+    </string-array>
+    <string-array name="array_dicari_panjang_lebar">
+        <item> Keliling </item>
+        <item> Luas </item>
+    </string-array>
+    <string-array name="array_dicari_Keliling">
+        <item> Panjang </item>
+        <item> Luas </item>
+    </string-array>
+    <string-array name="array_dicari_Luas">
+        <item> Panjang </item>
+        <item> Keliling </item>
+    </string-array>
+    <string-array name="array_dicari_panjanglebar">
+        <item> Lebar </item>
+        <item> Panjang </item>
+    </string-array>
+
+    <string-array name="array_dicari_persegi">
+        <item> Keliling </item>
+        <item> Luas </item>
+        <item> Sisi </item>
+    </string-array>
+    <string-array name="array_dicari_persegi_keliling">
+        <item> Luas </item>
+        <item> Sisi </item>
+    </string-array>
+    <string-array name="array_dicari_persegi_luas">
+        <item> Keliling </item>
+        <item> Sisi </item>
+    </string-array>
+    <string-array name="array_dicari_persegi_sisi">
+        <item> Keliling </item>
+        <item> Luas </item>
+    </string-array>
+
+    <string name="pengertian_persegi_panjang">
+    \t\t Persegi panjang adalah bangun datar yang memiliki sisi berhadapan sama
+         panjang dan memiliki empat titik sudut. Selain memiliki sisi yang
+         berhadapan sama panjang dan empat titik sudut yang sanma besar yaitu
+         90°, Persegi memiliki sifat lain diantaranya:\n\n
+    \t\t *) Memiliki 2 diagonal yang sama panjang\n
+    \t\t *) Memiliki 3 simetri lipat\n
+    \t\t *) Memiliki simetri putar tingkat dua\n
+    </string>
+    <string name="rumus_persegi_panjang">
+    \t <b>Rumus Persegi Panjang</b> \n
+    \t *) Luas\t= p x l \n
+    \t *) Keliling = 2 x (p + l) \n \n
+
+    \t <b>Keterangan :</b> \n
+    \t *) p = panjang \n
+    \t *) l = lebar \n
+    </string>
+
+    <string name="pengertian_lingkaran">
+    \t\t Lingkaran adalah himpunan semua titik pada bidang dalam jarak tertentu yang disebut dengan
+         jari-jari dari seatu titik yang disebut dengan pusat. Sifat Lingkaran:\n\n
+    \t\t *) Mempunyai simetri putar tak terhingga\n
+    \t\t *) Mempunyai simetri lipat serta sumbu \n
+    \t\t\t\t  yang tak terhingga\n
+    \t\t *) Tidak memiliki titik sudut\n
+    \t\t *) Memiliki satu sisi\n
+    </string>
+    <string name="rumus_lingkaran">
+    \t <b>Rumus Linkaran:</b> \n
+    \t *) Luas\t= π x r2 \n
+    \t *) Keliling = (π x d) atau (π x 2r) \n \n
+
+    \t <b>Keterangan :</b> \n
+    \t *) π = 3,14 atau 22/7 \n
+    \t *) r = jari-jari \n
+    \t *) d = diameter (2 x r) \n
+    </string>
+
+    <string name="pengertian_persegi">
+    \t\t Persegi adalalah bangun datar yang terbentuk dari empat buah sisi yang
+        sama panjang dan empat sudut yang sama besar 90°. Sifat-sifat Persegi:\n\n
+    \t\t *) Memiliki 2 pasang sisi yang sejajar dan \n
+    \t\t\t\t  sama panjang\n
+    \t\t *) Memiliki 4 simetri lipat\n
+    \t\t *) Memiliki simetri putar tingkat 4\n
+    </string>
+    <string name="rumus_persegi">
+    \t <b>Rumus Persegi:</b> \n
+    \t *) Luas\t= s2 \n
+    \t *) Keliling = 4 x s \n \n
+
+    \t <b>Keterangan :</b> \n
+    \t *) s = sisi/rusuk \n
+    </string>
+
+    <string name="pengertian_layang2">
+    \t\t Layang-layang adalah bangun datar 2 dimensi yang dibentuk oleh 2 pasang rusuk yang
+        masing-masing pasangan sama panjang dan saling membentuk sudut. Sifat Layang-layang:\n\n
+    \t\t *) Mempunyai 2 pasang sisi yang panjang \n
+    \t\t\t\t  sama \n
+    \t\t *) Mempunyai 4 titik sudut\n
+    \t\t *) Hanya mempunyai satu simetri lipat\n
+    </string>
+    <string name="rumus_layang2">
+    \t <b>Rumus Layang-layang:</b> \n
+    \t *) Luas\t= (d1 x d2) / 2 \n
+    \t *) Keliling = (2 x s1) + (2 x s2) \n \n
+
+    \t <b>Keterangan :</b> \n
+    \t *) s = sisi/rusuk \n
+    \t *) d = diagonal \n    
+    </string>
+
+    <string name="pengertian_Trapesium">
+    \t\t Trapesium adalah bangun datar dua dimensi tang dibentuk oleh 4 rusuk
+        diantaranta saliung sejajar namun tidak sama panjang. Sifat trapesium:\n\n
+    \t\t *) Memiliki 4 sisi dan 4 titik sudut \n
+    \t\t\t\t  sama \n
+    \t\t *) Memiliki sepasang sisi yang sejajar \n
+    \t\t\t\t  tapi tidak ama panjang\n
+    \t\t *) Memiliki sudut di antara sisi \n
+    \t\t\t\t  sejajarnya sebesar 180°\n
+    </string>
+    <string name="rumus_Trapesium">
+    \t <b>Rumus Trapesium:</b> \n
+    \t *) Luas\t= 1/2 x jumlah sisi sejajar x tinggi \n
+    \t *) Keliling = Jumlah seluruh sisi
+    </string>
+
+    <string name="pengertian_belah_ketupat">
+    \t\t Belah ketupat adalah bangun datar 2 dimensi yang dibentuk oleh 4 rusuk yang sama panjang
+        dan memiliki 2 pasang sudut yang masing-masing sama besar dengan sudut di hadapannya. Sifat Belah ketupat:\n\n
+    \t\t *) Memiliki sisi yang sama panjang \n
+    \t\t *) Memiliki 2 sumbu simetri \n
+    \t\t *) Memiliki 2 simetri lipat dan \n
+    \t\t\t\t  2 simetri putar\n
+    </string>
+    <string name="rumus_belah_ketupat">
+    \t <b>Rumus Belah Ketupat:</b> \n
+    \t *) Luas\t= (d1 x d2) / 2 \n
+    \t *) Keliling =  4 x s \n \n
+
+    \t <b>Keterangan :</b> \n
+    \t *) s = sisi/rusuk \n
+    \t *) d = diagonal \n
+    </string>
+
+    <string name="pengertian_jajar_genjang">
+    \t\t Jajar genjang atau jajaran genjang adalah bangun datar 2 dimensi yang
+        dibentuk oleh 2 pasang rusuk yang masing-masing sama panjang dan sejajar
+        dengan pasangannya dan memiliki 2 pasang sudut yang sama besar dengan sudut
+        hadapannya. Selain itu, sifat lain yang dimiliki jajar genjang yaitu:\n\n
+    \t\t *) Memiliki 2 diagonal yang berpotonga \n
+    \t\t\t\t dalam satu titik dan saling membagi \n
+    \t\t\t\t 2 sama panjang \n
+    \t\t *) Memiliki simetri putar tingkat 2 \n
+    \t\t *) tidak memiliki simetri lipat \n
+    </string>
+    <string name="rumus_jajar_genjang">
+    \t <b>Rumus Belah Ketupat:</b> \n
+    \t *) Luas\t= alas x tinggi \n
+    \t *) Keliling = (2 x alas) + (2 x sisi miring) \n
+    </string>
+
+    <string name="pengertian_segitiga">
+    \t\t Segitiga atau segi tiga adalah bangun datar yang dibentuk
+        oleh tiga sisi berupa garis lurus dan memiliki tiga sudut.
+        Selain memiliki 3 sisi atau rusuk dan sudut, sifat yang
+        dimiliki segitiga memiliki besar sudut 180°.\n
+    </string>
+    <string name="rumus_segitiga">
+    \t <b>Rumus Belah Ketupat:</b> \n
+    \t *) Luas\t= (alas x tinggi) / 2 \n
+    \t *) Keliling = sisi1 + sisi2 + sisi3 \n
+    </string>
+
+    <string name="deskripsi">
+        Kalkulator sakti (KASTI) adalah aplikasi yang dibuat untuk memudahkan
+        pelajar dalam memahami berbagai rumus dasar Matematika.
+    </string>
+</resources>

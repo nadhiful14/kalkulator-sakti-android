@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pop_up"
+    tools:context="com.nadhiful46gmail.kalkulatorsakti.pop_up2Activity">
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#3b3b3b">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logoapl" />
+
+        <TextView
+            android:id="@+id/tulisan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="14dp"
+            android:layout_toRightOf="@+id/logo"
+            android:text="Peringatan...!!"
+
+            android:textColor="#06deff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/garis"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_below="@+id/logo"
+            android:background="#06deff"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/garis"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Maaf, program ini masih trial, hubungi nomor berikut untuk membeli full version program."
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/t1"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:text="081230364780"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+            <TextView
+            android:id="@+id/garis2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/t2"
+            android:layout_marginTop="15dp"
+            android:background="#616161" />
+
+        <TextView
+            android:id="@+id/cr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/garis2"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="Copyright 2018"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cr"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Build version 13.01.2018"
+            android:textColor="#979797"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+</RelativeLayout>
